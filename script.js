@@ -1,9 +1,16 @@
-let shoppingList = ["Eggs","Pickles","Ham"];
-console.log(shoppingList[2])
+let shoppingList = [
+    "Eggs",
+    "Pickles",
+    "Ham",
+    "Milk",
+    "Oreos",
+    "Brocolli"    
+];
+console.log(shoppingList.length)
 
 
-for (let i = 0; 1<10 ; i++) {
-    console.log("hi")
+for (let i = 0; i < shoppingList.length; i++) {
+    console.log(shoppingList[i])
 }
 
 
